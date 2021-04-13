@@ -59,17 +59,6 @@
   box-sizing:border-box;
 }
 
-.q7--flex .q7__inner {
-  display:flex;
-  justify-content:space-around;
-  align-items:flex-end;
-}
-.q7--flex .q7__box{
-  font-size:16px;
-  vertical-align: middle;
-  box-sizing:border-box;
-}
-
 .q7--margin .q7__inner{
   font-size:0;
 }
