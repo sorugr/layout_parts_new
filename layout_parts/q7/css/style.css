@@ -7,77 +7,99 @@
   clear:both;
 }
 
-.q7 .q7__box{
+.side .side__inner {
+  margin: 0 auto;
+  padding: 20px;
+  width: 500px;
+  background-color: #ECF1F2;
+}
+
+.side .side__inner.full{
+  width:100%;
+  box-sizing: border-box;
+}
+
+.side .side__box{
   width:225px;
 }
-.q7--float .q7__box{
+.side--float .side__box{
   float:left;
   margin-left: 50px;
   font-size:16px;
   box-sizing: border-box;
 }
-.q7--float .q7__box:first-child{
+.side--float .side__box:first-child{
   margin-left: 0;
 }
 
-.q7--table .q7__inner{
+.side--table .side__inner{
   display:table;
 }
-.q7--table .q7__box{
+.side--table .side__box{
   display:table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
-.q7--table .q7__box:first-child{
+.side--table .side__box:first-child{
   padding-left: 0;
 }
-.q7--table .q7__box__text{
+.side--table .side__box__text{
   font-size: 16px;
 }
 
-.q7--inlineblock .q7__inner {
+.side--inlineblock .side__inner {
   font-size: 0;
 }
-.q7--inlineblock .q7__box {
+.side--inlineblock .side__box {
   display: inline-block;
   margin-left:50px;
   font-size:16px;
   vertical-align: middle;
   box-sizing: border-box;
 }
-.q7--inlineblock .q7__box:first-child{
+.side--inlineblock .side__box:first-child{
   margin-left: 0;
 }
-.q7--flex .q7__inner{
+
+.side--flex .side__inner{
   display:flex;
   justify-content: space-around;
   align-items:flex-end;
 }
-.q7--flex .q7__box{
+.side--flex .side__box{
   font-size:16px;
   vertical-align:middle;
   box-sizing:border-box;
 }
 
-.q7--margin .q7__inner{
+.side--margin .side__inner{
   font-size:0;
 }
-.q7--margin .q7__box{
+.side--margin .side__box{
   vertical-align: top;
 }
-.q7--margin .q7__box.is-stable{
+.side--margin .side__box.is-stable{
   display:inline-block;
   width:300px;
 }
-.q7--margin .q7__box.is-flexible{
+.side--margin .side__box.is-flexible{
   display: inline-block;
   width:100%;
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
 }
-.q7--margin .q7__box__text{
+.side--margin .side__box__text{
   font-size:16px;
+}
+
+.side--float .side__box,
+.side--inlineblock .side__box,
+.side--flex .side__box,
+.side--table .side__box__text,
+.side--margin .side__box__text {
+  padding:10px;
+  background-color: #FFF;
 }
 
 /* 回答はここに書いてね */
