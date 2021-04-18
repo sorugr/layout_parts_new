@@ -7,18 +7,6 @@
   clear:both;
 }
 
-.side .side__inner {
-  margin: 0 auto;
-  padding: 20px;
-  width: 500px;
-  background-color: #ECF1F2;
-}
-
-.side .side__inner.full{
-  width:100%;
-  box-sizing: border-box;
-}
-
 .side .side__box{
   width:225px;
 }
@@ -93,13 +81,3 @@
   font-size:16px;
 }
 
-.side--float .side__box,
-.side--inlineblock .side__box,
-.side--flex .side__box,
-.side--table .side__box__text,
-.side--margin .side__box__text {
-  padding:10px;
-  background-color: #FFF;
-}
-
-/* 回答はここに書いてね */
